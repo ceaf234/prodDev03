@@ -30,3 +30,32 @@ ion-fab {
   margin-top: var(--ion-safe-area-top, 0);
   margin-bottom: var(--ion-safe-area-bottom, 0);
 }
+
+#container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.title {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  color: #555;
+  font-family: 'Verdana', sans-serif;
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+#container .fas {
+  color: #ffcc00; /* Example color */
+  font-size: 1.5em; /* Example size */
+  margin-bottom: 0.5em;
+}
